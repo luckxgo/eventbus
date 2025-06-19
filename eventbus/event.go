@@ -7,8 +7,7 @@ type EventType string
 
 // 预定义事件类型常量
 const (
-	EventTypeUserCreated  EventType = "user.created"
-	EventTypeOrderUpdated EventType = "order.updated"
+	TestCreated EventType = "test.created"
 	// 可根据实际需求添加更多事件类型
 )
 
